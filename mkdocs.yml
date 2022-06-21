@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: sumstud-2022
+site_url:
+nav:
+  - About: about.md
+theme: readthedocs
