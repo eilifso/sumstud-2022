@@ -1,5 +1,6 @@
 site_name: sumstud-2022
 site_url:
 nav:
+  - Home: index.md
   - About: about.md
 theme: readthedocs
