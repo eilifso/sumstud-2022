@@ -3,7 +3,7 @@ ___
 # Summer project documentation site
 This site will hold documentation, results and discussions from the projects of three students at Rosseland Centre for Solar Physics (RoCS) during the summer of 2022.
 
-![RoCS logo](https://github.com/eilifso/sumstud-2022/tree/master/images/RoCS_logo_rgb.png "RoCS logo"){ align=left }
+![RoCS logo](images/RoCS_logo_rgb.png "RoCS logo")
 
 ### Code
 All code related to the project is located in the site's GitHub-repository `sumstud-2022`. The source files for the site is located in the branch `gh-pages`.
