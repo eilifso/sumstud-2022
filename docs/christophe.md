@@ -34,9 +34,9 @@ Below is a table of comparisions between the two
 * Emacs has a non-modal interface
 * Non-modal nature of Emacs keybindings makes it practical to be supported as OS-wide keybindings
 * Extensible and customizable Lisp variant (**Emacs lisp**), with features like
-  * Ability to emulate vi, using **Evil**.
-  * An OS inside and OS
-  * A powerful file manager
+  ** Ability to emulate vi, using **Evil**.
+  ** An OS inside and OS
+  ** A powerful file manager
 
 #### Benefits of vi 
 
