@@ -65,9 +65,7 @@ While in vim, I always recommend first learning vim script. But now has the opti
 And isn't that the point, that there are many ways to nirvana. 
 So my top choices for editors.
 
-
 1. Vim
 2. Emacs
-
 
 And all the way at the end the dreaded **Notepad++**
