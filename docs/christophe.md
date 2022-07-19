@@ -55,6 +55,7 @@ And with todays plugins and open source material, it is easy to customize the te
 But at this point, me personally like using vim for this exact reason. 
 That reason being that to customize in Emacs, one must use the Emacs lisp language. 
 An example of this is setting the relative numbers in Emacs
+
 ```Lisp
 (global-display-line-numbers-mode 1)
 (setq display-line-numbers-type 'relative)
@@ -63,8 +64,8 @@ An example of this is setting the relative numbers in Emacs
 While in vim, I always recommend first learning vim script. But now has the option of doing it your way. 
 And isn't that the point, that there are many ways to nirvana. 
 So my top choices for editors.
+
 1. Vim
 2. Emacs
-
 
 And all the way at the end the dreaded **Notepad++**
