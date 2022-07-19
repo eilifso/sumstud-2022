@@ -24,8 +24,7 @@ Below is a table of comparisions between the two
 |Feature| Vi | Emacs |
 |:-----| :--- | :----|
 |Keystroke execution| Vi retains each permuation of typed keys | Emacs commands are key combinations <br><br>for which modifier keys are held down while other keys are pressed|
-|Memory usage and customizabillity| Vi is a smaller and faster program. Vi start-up time is near instanteous. Vim and Neovim has evolved from Vi with more functionality and customization, making it comparable to Emacs.|Emacs executes many actions on startup. This makes Emacs use a long time to start up, almost like an operating system. However the versatility and customization that comes from Lisp is almost endless|
-|Function/navigation interface| Vi uses distinct editing modes. Under "insert mode", keys insert characters into the document. Under "normal mode" (also known as "command mode", not to be confused with "command-line mode", which allows the user to enter commands), bare keypresses execute vi commands. | Emacs uses metakey chords.Keys or key chords can be defined as prefix keys, which put Emacs into a mode where it waits for additional key presses that constitute a key binding. Key bindings can be mode-specific, further customizing the interaction style. Emacs provides a command line accessed by M-x that can be configured to autocomplete in various ways. Emacs also provides a `defalias` macro, allowing alternate names for commands. |
+|Memory usage and customizabillity| Vi is a smaller and faster program. <br><br>Vi start-up time is near instanteous. <br><br>Vim and Neovim has evolved from Vi with more functionality and customization,<br><br> making it comparable to Emacs.|Emacs executes many actions on startup.<br><br> This makes Emacs use a long time to start up,<br><br> almost like an operating system.<br><br> However the versatility and customization that comes from Lisp is almost endless|
 
 #### Benefits of Emacs
 
@@ -34,9 +33,9 @@ Below is a table of comparisions between the two
 * Emacs has a non-modal interface
 * Non-modal nature of Emacs keybindings makes it practical to be supported as OS-wide keybindings
 * Extensible and customizable Lisp variant (**Emacs lisp**), with features like
-  ** Ability to emulate vi, using **Evil**.
-  ** An OS inside and OS
-  ** A powerful file manager
+  *1. Ability to emulate vi, using **Evil**.
+  *2. An OS inside and OS
+  3. A powerful file manager
 
 #### Benefits of vi 
 
@@ -45,7 +44,7 @@ Below is a table of comparisions between the two
 * Edit commands are composable
 * Vi has a modal interface
 * Extensible and customizable through Vim script
-  * Now also with Python, Lua, Ruby and Perl
+  ** Now also with Python, Lua, Ruby and Perl
 
 ### Final takes
 
