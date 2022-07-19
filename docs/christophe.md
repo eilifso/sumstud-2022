@@ -4,9 +4,9 @@
 
 ### The beginning of the holy war.
 
-We know that the war has lasted since atleast 1985[^1], and has been at each others throat ever since.
+We know that the war has lasted since atleast 1985([EMACS vs. vi: The endless geek 'holy war'](https://web.archive.org/web/20161130184702/https://www.linux.com/news/emacs-vs-vi-endless-geek-holy-war)), 
+and has been at each others throat ever since.
 
-[^1]: [EMACS vs. vi: The endless geek 'holy war'](https://web.archive.org/web/20161130184702/https://www.linux.com/news/emacs-vs-vi-endless-geek-holy-war)
 
 ![Emacs](images/26-vim-vs-emacs.png)
 ### The religious faculties
@@ -62,9 +62,9 @@ An example of this is setting the relative numbers in Emacs
 
 While in vim, I always recommend first learning vim script. But now has the option of doing it your way. 
 And isn't that the point, that there are many ways to nirvana. 
-Lastly, I must admit that my choice of editor kinda looks like this.
-$$
-\lim\limits_{\text{Time with dirs}}\text{vim} \to \text{Emacs}
-$$
-Of course with **Evil** mode.
+So my top choices for editors.
+1. Vim
+2. Emacs
 
+
+And all the way at the end the dreaded **Notepad++**
