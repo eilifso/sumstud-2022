@@ -3,7 +3,7 @@ site_url:
 nav:
   - Home: index.md
   - About: about.md
-  - Aline: aline.md
-  - Adam: adam.md
-  - Christophe: christophe.md 
+  - 'Aline': aline.md
+  - 'Adam': adam.md
+  - 'Christophe': christophe.md 
 theme: readthedocs
