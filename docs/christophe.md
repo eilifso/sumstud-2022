@@ -33,9 +33,9 @@ Below is a table of comparisions between the two
 * Emacs has a non-modal interface
 * Non-modal nature of Emacs keybindings makes it practical to be supported as OS-wide keybindings
 * Extensible and customizable Lisp variant (**Emacs lisp**), with features like
-  *1. Ability to emulate vi, using **Evil**.
-  *2. An OS inside and OS
-  3. A powerful file manager
+* Ability to emulate vi, using **Evil**.
+* An OS inside and OS
+* A powerful file manager
 
 #### Benefits of vi 
 
@@ -44,9 +44,27 @@ Below is a table of comparisions between the two
 * Edit commands are composable
 * Vi has a modal interface
 * Extensible and customizable through Vim script
-  ** Now also with Python, Lua, Ruby and Perl
+* Now also with Python, Lua, Ruby and Perl
 
 ### Final takes
 
 ![Learning curve](images/learning_curve.png)
+
+In the end, all of this is just some sibling rivalry. 
+And with todays plugins and open source material, it is easy to customize the text editor of your choice to be some hybrid version that has the best of both worlds. 
+But at this point, me personally like using vim for this exact reason. 
+That reason being that to customize in Emacs, one must use the Emacs lisp language. 
+An example of this is setting the relative numbers in Emacs
+```Lisp
+(global-display-line-numbers-mode 1)
+(setq display-line-numbers-type 'relative)
+```
+
+While in vim, I always recommend first learning vim script. But now has the option of doing it your way. 
+And isn't that the point, that there are many ways to nirvana. 
+Lastly, I must admit that my choice of editor kinda looks like this.
+$$
+\lim\limits_{\text{Time with dirs}}\text{vim} \to \text{Emacs}
+$$
+Of course with **Evil** mode.
 
