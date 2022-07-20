@@ -23,12 +23,8 @@ The Wikipedia article on [Rubber duck debugging](https://en.wikipedia.org/wiki/R
 
 <p align="center"> 
 
-![Quack Overflow](images/Quack_overflow.png)
+<img src="images/Quack_overflow.png" alt>
+<em> The rubber duck asks: "Can I help?" Presumably it cannot. </em>
 
-<p>
+</p>
 
-<p align="center">
-
-The rubber duck asks: "Can I help?" Presumably it cannot.
-
-<p>
