@@ -40,3 +40,14 @@ The Wikipedia article on [Rubber duck debugging](https://en.wikipedia.org/wiki/R
 | Crab | 24 pW/m^2 |
 
 
+
+
+### An non-humorous code block:
+
+```json
+{
+  print("Good night, Vienna.")
+  x = 23,
+  True == False
+}
+```
