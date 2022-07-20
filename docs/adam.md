@@ -37,9 +37,17 @@ Newton protests: "No, I'm Newton in a meter square; I'm Pascal. Pascal is out!"
 
 ##pyjokes
 
-Python supports creation of random jokes using ´pyjokes´
+Python supports creation of random jokes using `pyjokes`
+###Installation
 
+To install use the following command:
+```pip install pyjokes```
+###How to use
+Start by importing
+```import pyjokes```
 
+Use the function `get_joke()`, which returns a single joke from a certain category in a particular language:
+```get_joke(language,category)```
 ###Late
 
 ![meme](images/meme.png)
