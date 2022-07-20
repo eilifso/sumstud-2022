@@ -33,7 +33,7 @@ The Wikipedia article on [Rubber duck debugging](https://en.wikipedia.org/wiki/R
 [Unusual units of measurement](https://en.wikipedia.org/wiki/List_of_unusual_units_of_measurement) is a Wikipedia page listing specific units of measurements that are generally not well known. Some of these units are... Mildly humorous. 
 
 | Unusual unit | SI equivalent |
-| ---------------------------- |
+| --- | --- |
 | shake      | 10 ns (nanoseconds)|
 | Kermits (KerMetric time) | 14.4 minutes |
 | Micromort | one-in-a-million probability of death || Nibble (alt: nybble/nybl) | 4 bits |
