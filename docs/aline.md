@@ -37,6 +37,6 @@ The Wikipedia article on [Rubber duck debugging](https://en.wikipedia.org/wiki/R
 | shake      | 10 ns (nanoseconds)|
 | Kermits (KerMetric time) | 14.4 minutes |
 | Micromort | one-in-a-million probability of death || Nibble (alt: nybble/nybl) | 4 bits |
-| Crab | 24 pW/m<sup>2</sup> |
+| Crab | 24 pW/m^2 |
 
 
