@@ -21,4 +21,13 @@ Listed below is a selection of the best jokes:
 
 The Wikipedia article on [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) contains a section describing Stack Exchange's April fools gag in 2018, in which they implemented a new feature called *Quack Overflow*. The feature introduced an interactive rubber duck that quacked in response to the user's input question. 
 
+<p align="center"> 
+
 ![Quack Overflow](images/Quack_overflow.png)
+
+<p>
+
+<p align="center">
+The rubber duck asks: "Can I help?" Presumably it cannot.
+
+<p>
