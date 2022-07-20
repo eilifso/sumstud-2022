@@ -1,3 +1,3 @@
 # Joke's on you
-## A scientific exploration of mathematical humor
+### A scientific exploration of mathematical humor
 
