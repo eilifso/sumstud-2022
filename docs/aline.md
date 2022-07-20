@@ -14,9 +14,7 @@ The Wikipedia article [Mathematical joke](https://en.wikipedia.org/wiki/Mathemat
 Listed below is a selection of the best jokes: 
 
 - "You have dialed an imaginary number, please rotate your telephone ninety degrees and try again."
-
 - Why do mathematicians confuse Halloween and Christmas? Because 31 Oct = 25 Dec.
-
 - When Noah sends his animals to go forth and multiply, a pair of snakes replies "We can't multiply, we're adders" – so Noah builds them a log table.
 
 ### Rubber duck debugging
@@ -25,13 +23,8 @@ The Wikipedia article on [Rubber duck debugging](https://en.wikipedia.org/wiki/R
 
 <p align="center"> 
 
-<img src = 
-images/Quack_overflow.png>
+<img src="images/Quack_overflow.png" alt>
+<em> The rubber duck asks: "Can I help?" Presumably it cannot. </em>
 
 </p>
 
-<p align="center">
-
-*The rubber duck asks: "Can I help?" Presumably it cannot.*
-
-</p>
