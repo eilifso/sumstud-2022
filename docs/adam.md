@@ -41,13 +41,21 @@ Python supports creation of random jokes using `pyjokes`
 ###Installation
 
 To install use the following command:
-```pip install pyjokes```
+
+```pip install pyjoke
+
+s```
 ###How to use
+
 Start by importing
-```import pyjokes```
+
+```import pyjokes
+```
 
 Use the function `get_joke()`, which returns a single joke from a certain category in a particular language:
-```get_joke(language,category)```
+
+```get_joke(language,category)
+```
 ###Late
 
 ![meme](images/meme.png)
