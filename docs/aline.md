@@ -28,6 +28,7 @@ The Wikipedia article on [Rubber duck debugging](https://en.wikipedia.org/wiki/R
 <p>
 
 <p align="center">
+
 The rubber duck asks: "Can I help?" Presumably it cannot.
 
 <p>
