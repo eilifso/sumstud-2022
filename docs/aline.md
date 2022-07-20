@@ -1,3 +1,3 @@
-# Joke's on you
-### A scientific exploration of mathematical humor
+# Mildly humorous things I found on wikipedia 
 
+*Now with pictures!* <br>
