@@ -1,4 +1,4 @@
-	# Physics jokes
+# Physics jokes
 
 ## Relatively slow
 
