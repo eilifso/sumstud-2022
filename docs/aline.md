@@ -4,4 +4,15 @@
 
 <p>Wikipedia is an online encyclopedia that is written, updated and maintained by voluntary editors. Since it is written for fun by ordinary people, it naturally contains a wide array of humorous articles and topics. </p>
 
-What follows is a select few of the aforementioned slightly funny Wikipedia content.
+What follows is a selection of the aforementioned slightly funny Wikipedia content.
+
+
+## Mathematical jokes 
+
+<p>The Wikipedia article [Mathematical joke](https://en.wikipedia.org/wiki/Mathematical_joke) contains several gags based on mathematical logic, stereotypes of mathematicians and mathematical misunderstandings.</p>
+
+Listed below is a selection of the best jokes: 
+
+- "You have dialed an imaginary number, please rotate your telephone ninety degrees and try again."
+- Why do mathematicians confuse Halloween and Christmas? Because 31 Oct = 25 Dec.
+- When Noah sends his animals to go forth and multiply, a pair of snakes replies "We can't multiply, we're adders" – so Noah builds them a log table.
