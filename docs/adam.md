@@ -27,9 +27,13 @@ Newton protests: "No, I'm Newton in a meter square; I'm Pascal. Pascal is out!"
 |10 millipedes | 1 centipede |
 |2 monograms | 1 diagram |
 |1 trillion pins| 1 terrapin|
+
+
 ##Ways to use a barometer to find the height of a building
-
-
+1. Measure the height of the barometer. Scale the side of the building, measuring its height in barometer-units.
+2. Drop the barometer from the top of the building. Measure the time until it hits the street. Correcting for the mass/surface ratio of the instrument, use basic acceleration equation to find the height.
+3. Tie string to top of barometer. Lower from roof to almost ground. Swing. Period of pendulum can be used to find distance from barometer's Center of Gravity to top of building.
+4.Tie string to top of barometer. Lower from roof to almost ground. Swing. Period of pendulum can be used to find distance from barometer's Center of Gravity to top of building.
 
 ##Late
 
