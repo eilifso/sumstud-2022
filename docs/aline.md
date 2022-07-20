@@ -7,7 +7,7 @@
 What follows is a selection of the aforementioned slightly funny Wikipedia content.
 
 
-#### Mathematical jokes 
+### Mathematical jokes 
 
 The Wikipedia article [Mathematical joke](https://en.wikipedia.org/wiki/Mathematical_joke) contains several gags based on mathematical logic, stereotypes of mathematicians and mathematical misunderstandings.
 
@@ -19,6 +19,6 @@ Listed below is a selection of the best jokes:
 
 ### Rubber duck debugging
 
-The Wikipedia article on [Rubber duck debuggin](https://en.wikipedia.org/wiki/Rubber_duck_debugging) contains a section describing Stack Exchange's April fools gag in 2018, in which they implemented a new feature called *Quack Overflow*. The feature introduced an interactive rubber duck that quacked in response to the user's input question. 
+The Wikipedia article on [Rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) contains a section describing Stack Exchange's April fools gag in 2018, in which they implemented a new feature called *Quack Overflow*. The feature introduced an interactive rubber duck that quacked in response to the user's input question. 
 
-![Quack Overflow](/images/Quack_overflow.png)
+![Quack Overflow](images/Quack_overflow.png)
