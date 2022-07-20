@@ -7,9 +7,9 @@
 What follows is a selection of the aforementioned slightly funny Wikipedia content.
 
 
-## Mathematical jokes 
+#### Mathematical jokes 
 
-<p>The Wikipedia article [Mathematical joke](https://en.wikipedia.org/wiki/Mathematical_joke) contains several gags based on mathematical logic, stereotypes of mathematicians and mathematical misunderstandings.</p>
+The Wikipedia article [Mathematical joke](https://en.wikipedia.org/wiki/Mathematical_joke) contains several gags based on mathematical logic, stereotypes of mathematicians and mathematical misunderstandings.
 
 Listed below is a selection of the best jokes: 
 
