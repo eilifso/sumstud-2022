@@ -35,6 +35,11 @@ Newton protests: "No, I'm Newton in a meter square; I'm Pascal. Pascal is out!"
 3. Tie string to top of barometer. Lower from roof to almost ground. Swing. Period of pendulum can be used to find distance from barometer's Center of Gravity to top of building.
 4.Tie string to top of barometer. Lower from roof to almost ground. Swing. Period of pendulum can be used to find distance from barometer's Center of Gravity to top of building.
 
-##Late
+##pyjokes
+
+Python supports creation of random jokes using ´pyjokes´
+
+
+###Late
 
 ![meme](images/meme.png)
