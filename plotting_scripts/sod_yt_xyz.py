@@ -2,23 +2,25 @@ import dispatch.yt
 import numpy as np
 import matplotlib.pyplot as plt
 
-# gamma in gas law
+# Gamma in gas law
 gamma = 1.4
 
-# load data from Dispatch
+# Load data from Dispatch
 runs = ['sod_bifrost_x', 'sod_bifrost_y', 'sod_bifrost_z']
-#run outside the python directory inside the experimenti
+# Run outside the python directory inside the experimenti
 data='data/'
 
 axes = ['x', 'y', 'z']
 
+# Create empty lists for all variables
 ds, rays, ray_sorts, x, rho, u, ee, p = ([] for i in range(8))
 
+# Loop over x, y, and z axes
 for i, axis in enumerate(axes):
 
 	ds.append( dispatch.yt.snapshot(20, run=runs[i], data=data) )
 
-	# Load ray on axes
+	# Load ray on axis
 	rays.append( ds[i].ortho_ray(i,(0,0)) )
 	ray_sorts.append( np.argsort(rays[i][axis]) )
 
@@ -32,29 +34,29 @@ for i, axis in enumerate(axes):
 
 lines = ['-.', '--', ':']
 
-#plot density
+# Plot density
 plt.figure(1)
 for i, axis in enumerate(axes):
 	plt.plot(x[i], rho[i], lines[i], label=r'$\rho($' + axis + ')')
-plt.xlabel('x, y and z')
+plt.xlabel('x, y, z')
 plt.ylabel(r'$\rho$')
 plt.legend()
 plt.savefig('sod_rho.png')
 
-#plot pressure
+# Plot pressure
 plt.figure(2)
 for i, axis in enumerate(axes):
 	plt.plot(x[i], p[i], lines[i], label=r'$p$(' + axis + ')')
-plt.xlabel('x, y and z')
+plt.xlabel('x, y, z')
 plt.ylabel(r'$p$')
 plt.legend()
 plt.savefig('sod_p.png')
 
-#plot velocity
+# Plot velocity
 plt.figure(3)
 for i, axis in enumerate(axes):
 	plt.plot(x[i], u[i], lines[i], label=r'$u$(' + axis + ')')
-plt.xlabel('x, y and z')
+plt.xlabel('x, y, z')
 plt.ylabel(r'$u$')
 plt.legend()
 plt.savefig('sod_u.png')
