@@ -1,4 +1,4 @@
-	# Physics jokes
+# Physics jokes
 
 ## Relatively slow
 
@@ -42,19 +42,21 @@ Python supports creation of random jokes using `pyjokes`
 
 To install use the following command:
 
-```	pip install pyjokes
-
+```Python
+pip install pyjokes
 ```
 ###How to use
 
 Start by importing
 
-```	import pyjokes
+```Python
+import pyjokes
 ```
 
 Use the function `get_joke()`, which returns a single joke from a certain category in a particular language:
 
-```	get_joke(language,category)
+```Python	
+get_joke(language,category)
 ```
 ###Late
 
