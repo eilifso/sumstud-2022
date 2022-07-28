@@ -2,6 +2,12 @@ site_name: sumstud-2022
 site_url:
 nav:
   - Home: index.md
+  - 'Einfeld-1203': einfeld.md
+  - 'Torrilhon': torrilhon.md
+  - 'RJ4d': rj4d.md
+  - 'Shu-Osher': shu-osher.md
+  - 'RJ2a': rj2a.md
+  - 'Fast Rarefaction': fast-rarefaction.md
   - About: about.md
   - 'Aline': aline.md
   - 'Adam': adam.md
