@@ -5,7 +5,7 @@
 
 # The Einfeld-1203 strong rarefaction test
 
-In Einfeldt et al. (1991), a set of problems designed to test hydrodynamics Riemann solvers are described. 
+In [Einfeldt et al. (1991)](https://www.sciencedirect.com/science/article/pii/0021999191902113), a set of problems designed to test hydrodynamics Riemann solvers are described. 
 
 For the Einfeldt-1203 test, the initial right and left values are as follows: 
 
