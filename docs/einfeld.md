@@ -3,9 +3,11 @@
   type="text/javascript">
 </script>
 
-# Einfeld-1203 test
+# The Einfeld-1203 strong rarefaction test
 
-Table of values: 
+In Einfeldt et al. (1991), a set of problems designed to test hydrodynamics Riemann solvers are described. 
+
+For the Einfeldt-1203 test, the initial right and left values are as follows: 
 
 |            	| $$\rho$$ 	| $$v_x$$ 	| $$v_y$$ 	| $$v_z$$ 	| $$P$$ 	| $$B_x$$ 	| $$B_z$$ 	|
 |------------	|----------	|---------	|---------	|---------	|-------	|---------	|---------	|
