@@ -1,3 +1,9 @@
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+
+
 # Shu Osher test
 
 Table of values for Shu-Osher: 
@@ -7,3 +13,4 @@ Right side 	| 1.0      	| 2.0     	| 0       	| 0       	| 0.4   	| ...     	| .
 |------------	|------------------------	|----------	|---------	|---------	|-----------	|---------	|---------	|
 | Left side  	| 3.857143               	| 2.629369 	| 0       	| 0       	| 10.3333 . 	| ...     	| ...     	|
 | Right side 	| $$1+0.2 \sin(5\pi x)$$ 	| 0        	| 0       	| 0       	| 1         	| ...     	| ...     	|
+
