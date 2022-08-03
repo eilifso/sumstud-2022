@@ -12,3 +12,7 @@ Table of values for Shu-Osher:
 |------------	|------------------------	|----------	|---------	|---------	|---------	|---------	|---------	|
 | Left side  	| 3.857143               	| 2.629369 	| 0       	| 0       	| 10.3333 	| ...     	| ...     	|
 | Right side 	| $$1+0.2 \sin(5\pi x)$$ 	| 0        	| 0       	| 0       	| 1       	| ...     	| ...     	|
+
+
+Reproducing the test using our Bifrost solver yields the result: 
+![shu-osher](images/shu-osher_rho.png)
