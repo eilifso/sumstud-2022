@@ -9,7 +9,7 @@ For the Torrilhon (2003) test we use the parameter values from table 2 in James 
 Using the stagger2/bifrost solver with end_time=0.1 and timestep=0.01 yields the following plots
 
 ![rho](images/Torrilhon_bifrost_rho.png)
-![B](images/Torrilhon_bifrost_Bd.png)
+![B](images/Torrilhon_bifrost_bd2.png)
 ![v](images/Torrilhon_bifrost_ud.png)
 
 Comparing the density plot and the magnetic field plot to Fig. 6 in Torrilhon (2003), we see that the plots are quite similar, with exception of the x-axis being shifted. 
