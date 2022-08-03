@@ -7,6 +7,8 @@
 * Hash: 177f0c9
 * Branch: develepment-bc
 
+
+## Bifrost
 ### Intial conditions
 |$$\rho_L$$|$$v_{x,L}$$|$$v_{y,L}$$|$$v_{z,L}$$|$$P_L$$|$$B_{y,L}$$|$$B_{z,L}$$|$$\rho_R$$|$$v_{x,R}$$|$$v_{y,R}$$|$$v_{z,R}$$|$$P_R$$|$$B_{y,R}$$|$$B_{z,R}$$|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -40,3 +42,5 @@ And the following animations
 
 
 See from the above animations that the only parameter worth studying closer for the time being is the change in velocity. 
+From further inspection of the velocity animations. 
+I decided to turn up the $$\rho$$ and $$e$$ parameters
