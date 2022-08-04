@@ -56,7 +56,8 @@ See from the above animations that the only parameter worth studying closer for 
 ![v_collage01](images/rj4d/changes/v_01.png)
 
 
-## Ramses
+Observe that the parameters stabilize when the time progresses. 
+But that for the $$1/10$$ density bifrost parameter, it will be slightly higher values then the original. 
 
 
-Observe that the parameters stabilize when the time progresses.  
+
