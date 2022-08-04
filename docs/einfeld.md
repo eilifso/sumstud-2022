@@ -21,4 +21,4 @@ The Einfeldt test in the x-, y- and z-directions as simulated by the Bifrost sol
 
 We can examine the time evolution of the einfeldt problem by plotting a specific snapshot. The biggest changes happen in the earliest snapshots, since the system begins in an extreme initial state. The following gif shows how the system changes from snapshots 0 (the initial state) to snapshot 5.
 
-![gif](einfeldt_early_times.gif)
+![gif](images/einfeldt_early_times.gif)
