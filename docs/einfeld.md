@@ -13,3 +13,8 @@ For the Einfeldt-1203 test, the initial right and left values are as follows:
 |------------	|----------	|---------	|---------	|---------	|-------	|---------	|---------	|
 | Left side  	| 1.0      	| -2.0    	| 0       	| 0       	| 0.4   	| ...     	| ...     	|
 | Right side 	| 1.0      	| 2.0     	| 0       	| 0       	| 0.4   	| ...     	| ...     	|
+
+
+The Einfeldt test in the x-, y- and z-directions as simulated by the Bifrost solver, gives the result: 
+
+![image](images/einfeldt_subplot.png)
