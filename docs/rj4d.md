@@ -41,6 +41,16 @@ And the following animations
 ![rho_a_rho](images/rj4d/changes/rj4d_rho.gif)
 
 
+See from the above animations that the only parameter worth studying closer for the time being is the change in velocity.  
+
+
+![v_collage](images/rj4d/changes/v.png)
+![v_collage100](images/rj4d/changes/v_100.png)
+![v_collage01](images/rj4d/changes/v_01.png)
+
+
+Observe that the parameters stabilize when the time progresses. 
+
 See from the above animations that the only parameter worth studying closer for the time being is the change in velocity. 
 From further inspection of the velocity animations. 
 I decided to turn up the $$\rho$$ and $$e$$ parameters
