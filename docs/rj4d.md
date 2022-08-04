@@ -16,6 +16,10 @@
 
 Using the **stagger2/bifrost** solver, with a end time of **t=0.2** and timestep of **0.01** produces the following plots
 
+### Intial conditions
+Intitial conditions are the same as stated from the before. 
+But now using **ramses** solver instead
+
 ![v](images/rj4d/ic/rj4d_v.png)
 ![p](images/rj4d/ic/rj4d_p.png)
 ![rho](images/rj4d/ic/rj4d_rho.png)
@@ -27,6 +31,9 @@ The corresponding animations are
 ![v_a](images/rj4d/ic/rj4d_v.gif)
 ![p_a](images/rj4d/ic/rj4d_p.gif)
 ![rho_a](images/rj4d/ic/rj4d_rho.gif)
+
+
+Comparing them to the [Fig 15](https://iopscience.iop.org/article/10.1086/588755/pdf) (Athena: A new code for astrophysical MHD, Stone et al)
 
 ### Changes to the conditions
 
@@ -49,8 +56,7 @@ See from the above animations that the only parameter worth studying closer for 
 ![v_collage01](images/rj4d/changes/v_01.png)
 
 
-Observe that the parameters stabilize when the time progresses. 
+## Ramses
 
-See from the above animations that the only parameter worth studying closer for the time being is the change in velocity. 
-From further inspection of the velocity animations. 
-I decided to turn up the $$\rho$$ and $$e$$ parameters
+
+Observe that the parameters stabilize when the time progresses.  
