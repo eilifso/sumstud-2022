@@ -7,8 +7,10 @@
 * Hash: 177f0c9
 * Branch: develepment-bc
 
+
+## Bifrost
 ### Intial conditions
-|$\rho_L$|$v_{x,L}$|$v_{y,L}$|$v_{z,L}$|$P_L$|$B_{y,L}$|$B_{z,L}$|$\rho_R$|$v_{x,R}$|$v_{y,R}$|$v_{z,R}$|$P_R$|$B_{y,R}$|$B_{z,R}$|
+|$$\rho_L$$|$$v_{x,L}$$|$$v_{y,L}$$|$$v_{z,L}$$|$$P_L$$|$$B_{y,L}$$|$$B_{z,L}$$|$$\rho_R$$|$$v_{x,R}$$|$$v_{y,R}$$|$$v_{z,R}$$|$$P_R$$|$$B_{y,R}$$|$$B_{z,R}$$|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |1|0|0|0|1|0|0|0.3|0|0|1|0.2|1|0|
 
@@ -26,19 +28,19 @@ The corresponding animations are
 ![p_a](images/rj4d/ic/rj4d_p.gif)
 ![rho_a](images/rj4d/ic/rj4d_rho.gif)
 
-It produces the same in $y$ and $z$ directions, but to save time on the animations I skipped it for now.
-
 ### Changes to the conditions
 
-Will start by changing the density on the right side with a factor 100, to see what happens.
+Will change all the bifrost parameters with a factor of 10. 
+Since it is already established that it *should* look identical in all the axis'. 
+I will only animate in the $$x$$-axis. 
 
-At the same time it produces the following
-
-![v_rho](images/rj4d/density_change/rj4d_v.png)
-![p_rho](images/rj4d/density_change/rj4d_p.png)
-![rho_rho](images/rj4d/density_change/rj4d_rho.png)
 
 And the following animations
-![v_a_rho](images/rj4d/density_change/rj4d_v.gif)
-![p_a_rho](images/rj4d/density_change/rj4d_p.gif)
-![rho_a_rho](images/rj4d/density_change/rj4d_rho.gif)
+![v_a_rho](images/rj4d/changes/rj4d_v.gif)
+![p_a_rho](images/rj4d/changes/rj4d_p.gif)
+![rho_a_rho](images/rj4d/changes/rj4d_rho.gif)
+
+
+See from the above animations that the only parameter worth studying closer for the time being is the change in velocity. 
+From further inspection of the velocity animations. 
+I decided to turn up the $$\rho$$ and $$e$$ parameters

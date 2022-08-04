@@ -3,12 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # gamma in gas law
-gamma = 1.4	
+gamma = 1.4
 
 # load data from Dispatch
 run_names = ['sod_bifrost_x',
-		'sod_bifrost_y',
-		'sod_bifrost_z']
+            'sod_bifrost_y',
+            'sod_bifrost_z']
 #run outside the python directory inside the experiment
 data='data/'
 
@@ -22,6 +22,7 @@ rho = []
 u = []
 ee = []
 p = []
+
 for run in run_names:
 	ds=dispatch.yt.snapshot(20, run=run, data=data)
 	var=axis[i]
@@ -33,7 +34,7 @@ for run in run_names:
 
 	ray_list.append(ray)
 	ray_sort_list.append(ray_sort)
-	
+
 	# Dispatch quantities
 	x.append(np.array(ray[axis[i]][ray_sort]))
 	rho.append(np.array(ray['density'][ray_sort]))
@@ -42,7 +43,7 @@ for run in run_names:
 	# equation of state
 	p.append(rho[i]*(gamma - 1)*ee[i])
 	i += 1
-	
+
 print('Quantities done')
 
 #plot density
