@@ -3,7 +3,8 @@
 
 The mhd tests that we are studying are:
 
-[Einferd 1-2-0-3](einfeld.md)
+1. [Einfeldt 1-2-0-3](einfeld.md)
+2. [Shu-Osher](shu-osher.md)
 
 ___
 Created: June 21, 2022.
