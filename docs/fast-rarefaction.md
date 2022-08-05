@@ -47,3 +47,12 @@ Still pictures
 ![img](images/fast_raref/changes/rj4d_p_16.png)
 ![img](images/fast_raref/changes/rj4d_v_16.png)
 ![img](images/fast_raref/changes/rj4d_rho_16.png)
+
+
+## Ramses
+The original animation from the ramses are
+
+
+![ani](images/fast_raref/ramses_og/rj4d_p.gif)
+![ani](images/fast_raref/ramses_og/rj4d_v.gif)
+![ani](images/fast_raref/ramses_og/rj4d_rho.gif)
