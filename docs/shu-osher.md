@@ -15,4 +15,4 @@ Table of values for Shu-Osher:
 
 
 Reproducing the test using our Bifrost solver yields the result: 
-![shu-osher](images/shu-osher_rho.png)
+![shu-osher](images/shu-osher/shu-osher_rho.png)
