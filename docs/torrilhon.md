@@ -19,3 +19,17 @@ All the bifrost parameters in the inputs are then increased, one by one, by a fa
 The variations in `nu1`(Ca) and `nu2`(U) yielded similar, but subtle changes as illustrated below.
 
 ![nu12](images/Torrilhon/nu1x_rho.gif)
+
+Changing `nu3`(Uv) did not produce any noticable changes.
+
+The variation of `nu4` is illustrated bellow 
+![nu4rho](images/Torrilhon/nu4x_rho.gif)
+![nu4B](images/Torrilhon/nu4x_bd.gif)
+
+Varying `nu5`produced no noticable change in $B$ and subtle changes in $\rho$ similar to `nu1` and `nu2`.
+
+
+Finally the parameter that produced the most change was `eta`(E):
+
+![eta](images/Torrilhon/eta3x_bd.gif)
+![eta_rho](images/Torrilhon/eta3x_rho.gif)
