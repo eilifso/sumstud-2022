@@ -12,7 +12,7 @@ We will compare the Bifrost and Ramses solvers with figure 11 in [Stone et al.](
 Starting with the Bifrost solver, we are using using $$\gamma = 1.4$$, and setting the end time to $$t=0.1$$ s. 
 
 INLINE TEST: 
-Starting with the Bifrost solver, we are using using \\(\gamma = 1.4)\\, and setting the end time to $$t=0.1$$ s. 
+Starting with the Bifrost solver, we are using using \\($$\gamma = 1.4$$)\\, and setting the end time to $$t=0.1$$ s. 
 
 For the Einfeldt-1203 test, the initial right and left values are as follows: 
 
