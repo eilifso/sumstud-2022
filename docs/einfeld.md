@@ -33,7 +33,7 @@ As described in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755
 
 In other words, the Einfeldt-1203 test consists of separating the domain with an imaginary membrane, and having the horizontal velocity be negative on one side and positive on the other side. We will then observe how the other parameters change when the imaginary membrane is yanked away, creating a shockwave that propagates through the domain.
 
-Plotting the final density ($\rho$), pressure ($P$), horizontal velocity ($u_x$) and $P/\rho$ (the specific internal energy scaled by ($\gamma - 1$)) in the x-direction yields figure 1: 
+Plotting the final density $\rho$, pressure $P$, horizontal velocity $u_x$ and $P/\rho$ (the specific internal energy scaled by ($\gamma - 1$)) in the x-direction yields figure 1: 
 
 ![image](images/einfeldt/einfeldt_standard.png)
 
@@ -48,4 +48,12 @@ The following gif shows how the system changes from snapshots 0 (the initial sta
 ![gif](images/einfeldt/einfeldt_early_times.gif)
 
 Further on, we can modify each of the Bifrost parameters $\nu_1$, $\nu_2$, $\nu_3$, $\nu_d$, $\nu_{ee}$ and $\eta_3$ in order to fine-tune the solver to better match the results in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf) 
-I found that changing the Bifrost parameters one by one did little in terms of the density and pressure plots. 
+I found that changing the Bifrost parameters one by one did little in terms of the density and pressure plots. The biggest changes are seen in the plot of the specific internal energy $P\/rho$.
+
+The initial parameters are as follows: 
+
+| Parameter 	| $\nu_1$ 	| $\nu_2$ 	| $\nu_3$ 	| $\nu_d$ 	| $\nu_{ee}$ 	| $\eta_3$ 	|
+|-----------	|---------	|---------	|---------	|---------	|------------	|----------	|
+| Value     	| 0.01    	| 0.3     	| 0.1     	| 0.05    	| 0.5        	| 0.3      	|
+
+By increasing $nu_3$ to $nu_3 = 1.0$, the 
