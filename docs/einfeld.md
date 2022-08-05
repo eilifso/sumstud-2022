@@ -56,4 +56,4 @@ The initial parameters are as follows:
 |-----------	|---------	|---------	|---------	|---------	|------------	|----------	|
 | Value     	| 0.01    	| 0.3     	| 0.1     	| 0.05    	| 0.5        	| 0.3      	|
 
-By increasing $nu_3$ to $nu_3 = 1.0$, the 
+By increasing $\nu_3$ to $\nu_3 = 1.0$, the 
