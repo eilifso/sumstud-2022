@@ -6,6 +6,8 @@
 
 # Shu Osher test
 
+We will be comparing our solvers' solutions to the Shu-Osher test with the plots provided by the University of Rochester in their [report on hydrodynamics test problems](https://flash.rochester.edu/site/flashcode/user_support/flash_ug_devel/node184.html#Fig:Shu-Osher_reference_solution). 
+
 Table of values for Shu-Osher: 
 
 |            	| $$\rho$$               	| $$v_x$$  	| $$v_y$$ 	| $$v_z$$ 	| $$P$$   	| $$B_x$$ 	| $$B_z$$ 	|
@@ -16,3 +18,5 @@ Table of values for Shu-Osher:
 
 Reproducing the test using our Bifrost solver yields the result: 
 ![shu-osher](images/shu-osher/shu-osher_rho.png)
+
+
