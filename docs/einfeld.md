@@ -48,7 +48,7 @@ The following gif shows how the system changes from snapshots 0 (the initial sta
 ![gif](images/einfeldt/einfeldt_early_times.gif)
 
 Further on, we can modify each of the Bifrost parameters $\nu_1$, $\nu_2$, $\nu_3$, $\nu_d$, $\nu_{ee}$ and $\eta_3$ in order to fine-tune the solver to better match the results in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf) 
-I found that changing the Bifrost parameters one by one did little in terms of the density and pressure plots. The biggest changes are seen in the plot of the specific internal energy $P\/rho$.
+I found that changing the Bifrost parameters one by one did little in terms of the density and pressure plots. The biggest changes are seen in the plot of the specific internal energy $P/\rho$.
 
 The initial parameters are as follows: 
 
@@ -57,3 +57,13 @@ The initial parameters are as follows:
 | Value     	| 0.01    	| 0.3     	| 0.1     	| 0.05    	| 0.5        	| 0.3      	|
 
 By increasing $\nu_3$ to $\nu_3 = 1.0$, the 
+
+
+
+### Compiling with the Ramses HLLD solver
+
+Using the Ramses solver with the default settings yields figure \ref{ramses_std}.
+
+![foo\label{ramses_std}](images/einfeldt/ramses_std.png)
+
+We can see immediately that the velocity plot much more closely resembles the reference plot in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf). 
