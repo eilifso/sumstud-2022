@@ -17,7 +17,7 @@
   });
 </script>
 
-**Current branch:** develop-bc
+**Current branch:** develop-bc </p>
 **Current commit:** 164f010
 
 # The Einfeld-1203 strong rarefaction test
