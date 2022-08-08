@@ -24,7 +24,7 @@ But now using **ramses** solver instead
 ![p](images/rj4d/ic/rj4d_p.png)
 ![rho](images/rj4d/ic/rj4d_rho.png)
 
-For the **iout=<++>**
+For the **iout=16**
 
 The corresponding animations are
 
