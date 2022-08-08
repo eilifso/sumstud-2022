@@ -53,7 +53,7 @@ We begin by changing the parameters such that $\nu_1=10.01$ and $\nu_{ee} = 1.05
 
 ![bifrost overplot](images/shu-osher/bifrost_overplot.png)
 
-
+We can see that the curve for $\nu_1 = 10.01$ deviates the most from the reference figure, in which the "turns" on the wavelike shapes are very sharp. By increasing $\nu_1$ a lot, these sharp angles soften out.
 
 
 ### Ramses HLLD solver
