@@ -13,5 +13,5 @@ For the RJ2a test we use the parameter values from table 5 in F. Miniati et al.(
 
 Using the stagger2/bifrost solver with end_time=0.2, timestep=0.01 and default bifrost parameters yields the following plots
 
-![Default](/images/RJ2a/subplot_dflt.png)
+![Default](images/RJ2a/subplot_dflt.png)
 
