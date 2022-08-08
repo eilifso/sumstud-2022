@@ -51,7 +51,7 @@ The initial configuration for the Bifrost solver is:
 By changing these parameters, we can fine-tune the solution and see if it fits the reference figure even better. 
 We begin by changing the parameters such that $\nu_1=10.01$ and $\nu_{ee} = 1.05$, because changing either parameter any less yelds an unnoticable result. The plots are shown below: 
 
-![](images/shu-osher/bifrost_overplot.png)
+![bifrost overplot](images/shu-osher/bifrost_overplot.png)
 
 
 
@@ -60,11 +60,11 @@ We begin by changing the parameters such that $\nu_1=10.01$ and $\nu_{ee} = 1.05
 
 We can compare our Bifrost solution with the figure we get when we run the Ramses HLLD solver instead, using the default `slope` parameter set to $3.5$. In the x-, y- and z-directions, this yields: 
 
-![](images/shu-osher/ramses_xyz.png)
+![ramses xyz](images/shu-osher/ramses_xyz.png)
 
 Just like we saw with the Bifrost solver, Ramses is also able to reproduce the reference figure very accurately. By changing the `slope` parameter to $1$ and $2$ respectively, we can see if we are able to fine-tune it even further. The results are plotted below: 
 
-![](images/shu-osher/ramses_overplot.png)
+![ramses overplot](images/shu-osher/ramses_overplot.png)
 
 It is apparent that changing the `slope` parameter does not change the solution in any noticeable way, at least when we are only looking at the final time step. We can examine the system at an earlier time step, e.g. at snapshot 5: 
 
