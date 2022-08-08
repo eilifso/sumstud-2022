@@ -21,6 +21,7 @@
 
 In [Einfeldt et al. (1991)](https://www.sciencedirect.com/science/article/pii/0021999191902113), a set of problems designed to test hydrodynamics Riemann solvers are described, and among them is the Einfeldt-1203 test. 
 We will compare the quantities we get from the Bifrost and Ramses solvers with figure 11 in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf) in order to verify the performance of our solvers. 
+Additionally we can look at other sources like [Carrillo, H. et al.](https://link.springer.com/article/10.1007/s10915-020-01380-0#Fig17) or [B. Einfeldt et al.](https://www.sciencedirect.com/science/article/pii/0021999191902113), in which the analytical solutions have a slightly different shape, the main difference being the horizontal velocity, which has a much softer "step" in the center than the reference figure in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf)
 
 As described in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf), the initial right and left values are as follows: 
 
