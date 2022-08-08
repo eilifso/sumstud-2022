@@ -60,4 +60,19 @@ Observe that the parameters stabilize when the time progresses.
 But that for the $$1/10$$ density bifrost parameter, it will be slightly higher values then the original. 
 
 
+## Ramses
 
+
+Using the exact same procedure as above. 
+But now with the **solver=ramses/hlld** instead. 
+Where the original **slope** parameter is **3.5**. 
+We get the following
+
+
+![anim](images/rj4d/ramses/rj4d_v.gif)
+![anim](images/rj4d/ramses/rj4d_p.gif)
+![anim](images/rj4d/ramses/rj4d_rho.gif)
+
+Where we see that the change of slope has very litte effect on the domain. 
+Except for the intersection between the left and right. 
+But interestingly for a slope parameter of one the simulation crashes after one timestep. 
