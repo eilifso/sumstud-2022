@@ -56,9 +56,12 @@ The initial parameters are as follows:
 |-----------	|---------	|---------	|---------	|---------	|------------	|----------	|
 | Value     	| 0.01    	| 0.3     	| 0.1     	| 0.05    	| 0.5        	| 0.3      	|
 
-By increasing $\nu_3$ to $\nu_3 = 1.0$, the 
+We can visualise what changing the parameters does by plotting the default solution along wih a few altered solutions. Plotting at $t=0.1$ s for $\nu_1 = 10$, and for $\nu_d=7$ yields: 
 
+![yeehaw](images/einfeldt/einfeldt_overplot.png)
 
+Not focusing too much on the specific internal energy, as mentioned above, we can see that the "bump" in horizontal velocity gets softened out more when we increase the value of $\nu_1$. 
+As we increase $\nu_d$, there is little change, but it may appear that the "bump" also gets a little softened, thus straying further from the reference solution in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf)
 
 ### Compiling with the Ramses HLLD solver
 
@@ -66,4 +69,6 @@ Using the Ramses solver with the default settings yields the following figure:
 
 ![](images/einfeldt/ramses_standard.png)
 
-We can see immediately that the velocity plot much more closely resembles the reference plot in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf) 
+We can see immediately that the velocity plot much more closely resembles the reference plot in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf), clearly showing the "bump" in the horizontal velocity around the center of the plot.  
+
+In order to fine-tune the Ramses solver, we can vary the `slope` parameter, which is initially set to be `slope=3.5`. Setting this parameter to be $1$, $2$, and $3$, we see that the lower slopes
