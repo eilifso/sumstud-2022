@@ -8,6 +8,12 @@ nav:
   - 'Shu-Osher': shu-osher.md
   - 'RJ2a': rj2a.md
   - 'Fast Rarefaction': fast-rarefaction.md
+  - 'LW case 3': lw-case3.md
+  - 'LW case 4': lw-case4.md
+  - 'LW case 6': lw-case6.md
+  - 'LW case 12': lw-case12.md
+  - 'LW case 15': lw-case15.md
+  - 'LW case 17': lw-case17.md
   - About: about.md
   - 'Aline': aline.md
   - 'Adam': adam.md
