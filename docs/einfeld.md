@@ -22,8 +22,6 @@
 In [Einfeldt et al. (1991)](https://www.sciencedirect.com/science/article/pii/0021999191902113), a set of problems designed to test hydrodynamics Riemann solvers are described, and among them is the Einfeldt-1203 test. 
 We will compare the quantities we get from the Bifrost and Ramses solvers with figure 11 in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf) in order to verify the performance of our solvers. 
 
-We begin with the Bifrost solver, using using $\gamma = 1.4$, and simulating until $t=0.1$ s. 
-
 As described in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf), the initial right and left values are as follows: 
 
 |            	| $\rho$ 	| $v_x$ 	| $v_y$ 	| $v_z$ 	| $P$ 	| $B_x$ 	| $B_z$ 	|
@@ -33,6 +31,9 @@ As described in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755
 
 In other words, the Einfeldt-1203 test consists of separating the domain with an imaginary membrane, and having the horizontal velocity be negative on one side and positive on the other side. We will then observe how the other parameters change when the imaginary membrane is yanked away, creating a shockwave that propagates through the domain.
 
+### Bifrost with stagger2
+
+We begin with the Bifrost solver, using using $\gamma = 1.4$, and simulating until $t=0.1$ s. 
 Plotting the final density $\rho$, pressure $P$, horizontal velocity $u_x$ and $P/\rho$ (the specific internal energy scaled by ($\gamma - 1$)) in the x-direction yields figure 1: 
 
 ![image](images/einfeldt/einfeldt_standard.png)
@@ -56,7 +57,7 @@ The initial parameters are as follows:
 |-----------	|---------	|---------	|---------	|---------	|------------	|----------	|
 | Value     	| 0.01    	| 0.3     	| 0.1     	| 0.05    	| 0.5        	| 0.3      	|
 
-We can visualise what changing the parameters does by plotting the default solution along wih a few altered solutions. Plotting at $t=0.1$ s for $\nu_1 = 10$, and for $\nu_d=7$ yields: 
+We can visualise what changing the parameters does by plotting the default solution in the x-direction along wih a few altered solutions. Plotting at $t=0.1$ s for $\nu_1 = 10$, and for $\nu_d=7$ yields: 
 
 ![yeehaw](images/einfeldt/einfeldt_overplot.png)
 

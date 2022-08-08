@@ -42,4 +42,11 @@ The time evolution of the Shu-Osher test in the x-, y- and z-directions very nic
 
 ![foo](images/shu-osher/time_evolution.gif)
 
+The initial configuration for the Bifrost solver is: 
 
+| Parameter 	| $\nu_1$ 	| $\nu_2$ 	| $\nu_3$ 	| $\nu_d$ 	| $\nu_{ee}$ 	| $\eta_3$ 	|
+|-----------	|---------	|---------	|---------	|---------	|------------	|----------	|
+| Value     	| 0.01    	| 0.3     	| 0.1     	| 0.05    	| 0.5        	| 0.3      	|
+
+By changing these parameters, we can fine-tune the solution and see if it fits the reference figure even better. 
+We begin by changing the parameters $$
