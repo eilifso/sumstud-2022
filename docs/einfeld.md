@@ -71,4 +71,10 @@ Using the Ramses solver with the default settings yields the following figure:
 
 We can see immediately that the velocity plot much more closely resembles the reference plot in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf), clearly showing the "bump" in the horizontal velocity around the center of the plot.  
 
-In order to fine-tune the Ramses solver, we can vary the `slope` parameter, which is initially set to be `slope=3.5`. Setting this parameter to be $1$, $2$, and $3$, we see that the lower slopes
+In order to fine-tune the Ramses solver, we can vary the `slope` parameter, which is initially set to be `slope=3.5`. Setting this parameter to be $1$, $2$, and $3$, we can plot the resulting solutions at $t=0.1$ s:
+
+![](images/einfeldt/ramses_overplot.png)
+
+Here we can see that tuning the `slope` parameter does very little in terms of the overall shape of the graph. 
+There is a small difference in the slope of the density pressure plots, at the points where the graph start to drop from $\rho=1.0$ and $P=0.40$ respectively. 
+In the solution with `slope=2`, this is visible at the very top of the central curve.
