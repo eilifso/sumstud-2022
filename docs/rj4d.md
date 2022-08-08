@@ -58,6 +58,7 @@ See from the above animations that the only parameter worth studying closer for 
 
 Observe that the parameters stabilize when the time progresses. 
 But that for the $$1/10$$ density bifrost parameter, it will be slightly higher values then the original. 
+And that most of the deviations stems from the intersection between the left and right side of the domain. 
 
 
 ## Ramses
