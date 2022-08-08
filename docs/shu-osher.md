@@ -40,6 +40,6 @@ Here we have used $t = 1.8$ s as the end time of the simulation. We can see that
 
 The time evolution of the Shu-Osher test in the x-, y- and z-directions very nicely shows us the shock wave travelling along the x-axis: 
 
-![foo](images/shu-osher/bifrost_time_evolution.gif)
+![foo](images/shu-osher/time_evolution.gif)
 
 

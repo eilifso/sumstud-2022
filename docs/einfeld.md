@@ -62,8 +62,8 @@ By increasing $\nu_3$ to $\nu_3 = 1.0$, the
 
 ### Compiling with the Ramses HLLD solver
 
-Using the Ramses solver with the default settings yields figure \ref{ramses_std}.
+Using the Ramses solver with the default settings yields the following figure:
 
-![foo\label{ramses_std}](images/einfeldt/ramses_std.png)
+![foo](images/einfeldt/ramses_std.png)
 
 We can see immediately that the velocity plot much more closely resembles the reference plot in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf). 
