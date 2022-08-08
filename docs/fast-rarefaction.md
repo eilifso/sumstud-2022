@@ -74,5 +74,5 @@ And for three it's not even showing.
 
 
 Had to be tripple check my script to make sure it was plotting over the correct axis. 
-But it is plotting over the $x$-axis on all of them and the above animation are the correct one. 
+But it is plotting over the x-axis on all of them and the above animation are the correct one. 
 This indicates that the original slope parameter of 3.5 is the best parameter.
