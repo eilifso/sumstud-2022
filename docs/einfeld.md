@@ -64,6 +64,6 @@ By increasing $\nu_3$ to $\nu_3 = 1.0$, the
 
 Using the Ramses solver with the default settings yields the following figure:
 
-![foo](images/einfeldt/ramses_std.png)
+![](images/einfeldt/ramses_standard.png)
 
-We can see immediately that the velocity plot much more closely resembles the reference plot in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf). 
+We can see immediately that the velocity plot much more closely resembles the reference plot in [Stone et al.](https://iopscience.iop.org/article/10.1086/588755/pdf) 
