@@ -68,7 +68,7 @@ Just like we saw with the Bifrost solver, Ramses is also able to reproduce the r
 
 ![ramses overplot](images/shu-osher/ramses_overplot.png)
 
-It is apparent that changing the `slope` parameter does not change the solution in any noticeable way, at least when we are only looking at the final time step. We can examine the system at an earlier time step, e.g. at snapshot 5: 
+It is apparent that changing the `slope` parameter does not change the solution in any noticeable way, at least when we are only looking at the final time step. 
 
 
 
