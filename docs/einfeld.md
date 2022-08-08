@@ -17,6 +17,9 @@
   });
 </script>
 
+**Current branch:** develop-bc
+**Current commit:** 164f010
+
 # The Einfeld-1203 strong rarefaction test
 
 In [Einfeldt et al. (1991)](https://www.sciencedirect.com/science/article/pii/0021999191902113), a set of problems designed to test hydrodynamics Riemann solvers are described, and among them is the Einfeldt-1203 test. 
@@ -80,3 +83,7 @@ In order to fine-tune the Ramses solver, we can vary the `slope` parameter, whic
 Here we can see that tuning the `slope` parameter does very little in terms of the overall shape of the graph. 
 There is a small difference in the slope of the density pressure plots, at the points where the graph start to drop from $\rho=1.0$ and $P=0.40$ respectively. 
 In the solution with `slope=2`, this is visible at the very top of the central curve.
+
+Something that might also be worth noting, is that for the initial Ramses setting `slope=3.5`, the specific internal velocity gets an unfamilliar shape. 
+Since this plot generally is a point of uncertainty in this report, it may not be significant. 
+However, we can observe that using `slope=1` and `slope=3` produces a $P/\rho$-plot that more closely resembles the shape seen in the reference figure.

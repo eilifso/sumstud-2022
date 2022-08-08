@@ -17,6 +17,8 @@
   });
 </script>
 
+**Current branch:** develop-bc
+**Current commit:** 164f010
 
 # Shu Osher test
 
