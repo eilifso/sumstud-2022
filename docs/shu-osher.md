@@ -49,7 +49,9 @@ The initial configuration for the Bifrost solver is:
 | Value     	| 0.01    	| 0.3     	| 0.1     	| 0.05    	| 0.5        	| 0.3      	|
 
 By changing these parameters, we can fine-tune the solution and see if it fits the reference figure even better. 
-We begin by changing the parameters $$
+We begin by changing the parameters such that $\nu_1=10.01$ and $\nu_{ee} = 1.05$, because changing either parameter any less yelds an unnoticable result. The plots are shown below: 
+
+![](images/shu-osher/bifrost_overplot.png)
 
 
 
