@@ -19,7 +19,7 @@ Here we see that the plots are quite similar in shape, but somewhat off when it 
 
 ## Changing parameters
 
-All the bifrost parameters in the inputs are then increased, one by one, by a factor of 10.
+All the bifrost parameters in the x-inputs are then increased, one by one, by a factor of 10.
 
 The variation in `nu1`(Ca),`nu2`(U) and `nu3` yielded subtle changes.
 
