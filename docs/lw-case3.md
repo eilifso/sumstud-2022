@@ -27,7 +27,6 @@ In [Liska and Wendroff (2003)](https://rsaa.anu.edu.au/files/liska_wendroff_2003
 | Upper 	| 0.3   	| 0.5323   	| 1.206     	| 0.0       	| 1.5   	| 1.5      	| 0.0       	| 0.0       	|
 | Lower 	| 0.029 	| 0.138    	| 1.206     	| 1.206     	| 0.3   	| 0.5323   	| 0.0       	| 1.206     	|
 
-We will look at snapshots produced by our Ramses HLLD solver, and compare with the reference figures provided in [Liska and Wendroff (2003)](https://rsaa.anu.edu.au/files/liska_wendroff_2003.pdf), at a final time $t=0.25$ s.
-
+We will look at snapshots produced by our Ramses HLLD solver, and compare with the reference figures provided in [Liska and Wendroff (2003)](https://rsaa.anu.edu.au/files/liska_wendroff_2003.pdf) at a final time $t=0.25$ s.
 
 
