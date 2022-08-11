@@ -17,6 +17,9 @@
   });
 </script>
 
+Current branch: develop-bc </p>
+Current commit: XXX
+
 # Liska and Wendroff case 12
 
 Case 12 in [Liska and Wendroff (2003)](https://rsaa.anu.edu.au/files/liska_wendroff_2003.pdf) describes a Riemann problem with the intial values: 
@@ -31,3 +34,13 @@ We will run this test with the parameters described above, plotting the final ti
 Since the xy-, yz- and zx-planes produce very similar plots, we have included a gif that shows the plot for each plane. 
 
 ![gif of lw case 12](images/case12/case12.gif)
+
+We see that the general structure of the solution is similar to the reference figure in Liska and Wendroff, but there are some inaccuracies in the details of the plot. 
+As we saw in [case 3](https://eilifso.github.io/sumstud-2022/lw-case3/), the edges of the "shock lines" surrounding the low-pressure region in the top right corner seem to curve near the edges of the grid. 
+Again, this may be due to us using different boundary conditions than the ones used in Liska and Wendroff.
+It also appears that the high pressure is "leaking" out from the upper right corner, unlike in the reference figure, were the high-pressure area is firmly isolated by the density "shock lines". 
+
+We can produce a plot the xy-plane using a higher resolution in order to more accurately replicate the reference figure. 
+Using a $400 \times 400$ grid yields: 
+
+![high res case 12](images/case12/high_res_case12.png)
