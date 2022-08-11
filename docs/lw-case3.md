@@ -29,4 +29,6 @@ In [Liska and Wendroff (2003)](https://rsaa.anu.edu.au/files/liska_wendroff_2003
 
 We will look at snapshots produced by our Ramses HLLD solver, and compare with the reference figures provided in [Liska and Wendroff (2003)](https://rsaa.anu.edu.au/files/liska_wendroff_2003.pdf) at a final time $t=0.25$ s.
 
+We ran the simulation in the xy-, yz- and zx-planes, which after some confusion about the transposing of the axes yielded three nearly identical plots, as shown in the .gif-file below: 
 
+![gif of lw case 3](images/case3/case3.gif)

@@ -28,3 +28,6 @@ Case 12 in [Liska and Wendroff (2003)](https://rsaa.anu.edu.au/files/liska_wendr
 | Lower 	| 1.0   	| 0.8      	| 0.0       	| 0.0       	| 1.0   	| 0.0      	| 0.0       	| 0.7276    	|
 
 We will run this test with the parameters described above, plotting the final time $t=0.25$ s and comparing with the corresponding reference figure in [Liska and Wendroff (2003)](https://rsaa.anu.edu.au/files/liska_wendroff_2003.pdf). 
+Since the xy-, yz- and zx-planes produce very similar plots, we have included a gif that shows the plot for each plane. 
+
+![gif of lw case 12](images/case12/case12.gif)
