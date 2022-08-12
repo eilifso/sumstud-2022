@@ -17,7 +17,7 @@
   });
 </script>
 
-Current branch: develop-bc </b>
+Current branch: develop-bc <br>   
 Current commit: 34c177c
 
 # Liska and Wendroff case 3
