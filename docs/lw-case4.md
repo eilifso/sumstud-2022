@@ -15,4 +15,4 @@ We solve the  2D-Riemann problem described in Liska and endroff (2003), case 4 w
 
 The results in the xy-plane, at final time t=2.25s are visualized in low (left) and high (right) resolution.
 
-![case4_xy](images/case4/case4_xy.png)
+![case4_xy](images/2D/case4/case4_xy.png)
