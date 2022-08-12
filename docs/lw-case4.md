@@ -27,6 +27,6 @@ The process is repeated, using the same initial parameters in the yz-plane, prod
 
 and the zx-plane
 
-![case4_zx](images/2D/case4/case4_zx.png)
+![case4_zx](images/2D/case4/case4_xz.png)
 
 which are both identical to the results in the xy-plane.
