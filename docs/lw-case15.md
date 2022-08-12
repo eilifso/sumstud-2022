@@ -23,3 +23,5 @@ The process is repeated, using the same initial parameters in the yz-plane, prod
 and the zx-plane
 
 ![case15_zx](images/2D/case15/case15_xz.png)
+
+These results are identical(Although transposed) to the previous ones in the xy-plane. 
