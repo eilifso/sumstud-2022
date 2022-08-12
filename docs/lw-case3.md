@@ -17,8 +17,8 @@
   });
 </script>
 
-Current branch: develop-bc </p>
-Current commit: XXX
+Current branch: develop-bc </b>
+Current commit: 34c177c
 
 # Liska and Wendroff case 3
 
@@ -46,3 +46,8 @@ As this simulation only uses $96 \times 96$ grid points, we will have to simulat
 Simulating for $400 \times 400$ grid points gives us this plot: 
 
 ![high res case 3](images/case3/high_res_case3.png)
+
+As our colorbar limits are a little different from the reference figures, we can plot the high-resolution data using a more similar color representation.
+We see then that the pressure seems to lie a bit higher than in the reference, but overall it seems like the values are mostly similar. 
+
+![case 3 with correct colorbar](images/case3/case3_colorbar.png)

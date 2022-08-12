@@ -17,8 +17,8 @@
   });
 </script>
 
-Current branch: develop-bc </p>
-Current commit: XXX
+Current branch: develop-bc </b>
+Current commit: 34c177c
 
 # Liska and Wendroff case 12
 
@@ -44,3 +44,7 @@ We can produce a plot the xy-plane using a higher resolution in order to more ac
 Using a $400 \times 400$ grid yields: 
 
 ![high res case 12](images/case12/high_res_case12.png)
+
+It might be worth noting that the colorbar indicating pressure is a little different from the reference figures. If we plot the data using the same colorbar limits as in Liska and Wendroff, we see that our pressure seems to be consistently higher. 
+
+![case 12 with the right colorbar limits](images/case12/case12_colorbar.png)
