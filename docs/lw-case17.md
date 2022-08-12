@@ -37,6 +37,7 @@
 
 
 Which is close to the [Fig 4.6](https://rsaa.anu.edu.au/files/liska_wendroff_2003.pdf)(Liska and Wendroff, 2003), if we look at the corresponding regime.
+And is in accordance to the initial parameters, that the density is higher on the top half of the plot.
 
 If we plot for the same but with a 128x128 grid we get the following
 
