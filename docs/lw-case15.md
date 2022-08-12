@@ -15,3 +15,11 @@ The results in the xy-plane, at final time t=2.2s are visualized in low (left) a
 Pressure is displayed by color and density by 29 contours.
 
 We observe a similar structures when compared to FIG. 4.5 in Liska and Wendorff (2003). Although, there are areas with higher density and pressure across the domain which are not present in Liska and Wendorff (2003), the velocities seem to point in the same directions.  
+
+The process is repeated, using the same initial parameters in the yz-plane, producting the following plots
+
+![case15_yz](images/2D/case15/case15_yz.png)
+
+and the zx-plane
+
+![case15_zx](images/2D/case15/case15_xz.png)
