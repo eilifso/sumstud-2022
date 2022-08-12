@@ -24,3 +24,9 @@ We observe that the general shape of the structures is similar to the one in Lis
 The process is repeated, using the same initial parameters in the yz-plane, producting the following plots
 
 ![case4_yz](images/2D/case4/case4_yz.png)
+
+and the zx-plane
+
+![case4_zx](images/2D/case4/case4_zx.png)
+
+which are both identical to the results in the xy-plane.
