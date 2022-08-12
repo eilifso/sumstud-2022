@@ -19,7 +19,7 @@ The results in the xy-plane, at final time t=2.25s are visualized in low (right)
 
 Pressure is displayed by color and density by 29 contours.
 
-We observe that the general shape of the structures is similar to the one in Liska and Wendorff FIG 4.2, with exception to the rounded curves in the upper left and lower right corners. We note differences in both the pressure and density across the domain. We see areas with high density located at approximately (0.2,-0.4) and (-0.4,0.2) which are not present in Liska and Wendorff FIG 4.2. Concerning the pressure, we see that the area with constant pressure is interchanged with the area with varying pressure when compared to Liska and Wendorff.
+We observe that the general shape of the structures is similar to the one in Liska and Wendorff FIG 4.2, with exception to the rounded curves in the upper left and lower right corners. We note differences in both the pressure and density across the domain. We see areas with high density located at approximately (0.2,-0.4) and (-0.4,0.2) which are not present in Liska and Wendorff FIG 4.2. Concerning the pressure, we see that the area with constant pressure is interchanged with the area with varying pressure when compared to Liska and Wendorff. The pressure also seems to be higher across the domain, eventhough we used the same samme colorbar-limits.
 
 The process is repeated, using the same initial parameters in the yz-plane, producting the following plots
 
