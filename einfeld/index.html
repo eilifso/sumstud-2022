@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Einfeld-1203 - sumstud-2022</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Einfeld-1203";
+        var mkdocs_page_input_path = "einfeld.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> sumstud-2022
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Einfeld-1203</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#bifrost-with-stagger2">Bifrost with stagger2</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#compiling-with-the-ramses-hlld-solver">Compiling with the Ramses HLLD solver</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../torrilhon/">Torrilhon</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../rj4d/">RJ4d</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../shu-osher/">Shu-Osher</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../rj2a/">RJ2a</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../fast-rarefaction/">Fast Rarefaction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case3/">LW case 3</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case4/">LW case 4</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case6/">LW case 6</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case12/">LW case 12</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case15/">LW case 15</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case17/">LW case 17</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">sumstud-2022</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Einfeld-1203</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true},
+      jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+      extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+      TeX: {
+      extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+      equationNumbers: {
+      autoNumber: "AMS"
+      }
+    }
+  });
+</script>
+
+<p><strong>Current branch:</strong> develop-bc </p>
+<strong>Current commit:</strong> 164f010</p>
+<h1 id="the-einfeld-1203-strong-rarefaction-test">The Einfeld-1203 strong rarefaction test</h1>
+<p>In <a href="https://www.sciencedirect.com/science/article/pii/0021999191902113">Einfeldt et al. (1991)</a>, a set of problems designed to test hydrodynamics Riemann solvers are described, and among them is the Einfeldt-1203 test. 
+We will compare the quantities we get from the Bifrost and Ramses solvers with figure 11 in <a href="https://iopscience.iop.org/article/10.1086/588755/pdf">Stone et al.</a> in order to verify the performance of our solvers. 
+Additionally we can look at other sources like <a href="https://link.springer.com/article/10.1007/s10915-020-01380-0#Fig17">Carrillo, H. et al.</a> or <a href="https://www.sciencedirect.com/science/article/pii/0021999191902113">B. Einfeldt et al.</a>, in which the analytical solutions have a slightly different shape, the main difference being the horizontal velocity, which has a much softer "step" in the center than the reference figure in <a href="https://iopscience.iop.org/article/10.1086/588755/pdf">Stone et al.</a></p>
+<p>As described in <a href="https://iopscience.iop.org/article/10.1086/588755/pdf">Stone et al.</a>, the initial right and left values are as follows: </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>$\rho$</th>
+<th>$v_x$</th>
+<th>$v_y$</th>
+<th>$v_z$</th>
+<th>$P$</th>
+<th>$B_x$</th>
+<th>$B_z$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Left side</td>
+<td>1.0</td>
+<td>-2.0</td>
+<td>0</td>
+<td>0</td>
+<td>0.4</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td>Right side</td>
+<td>1.0</td>
+<td>2.0</td>
+<td>0</td>
+<td>0</td>
+<td>0.4</td>
+<td>...</td>
+<td>...</td>
+</tr>
+</tbody>
+</table>
+<p>In other words, the Einfeldt-1203 test consists of separating the domain with an imaginary membrane, and having the horizontal velocity be negative on one side and positive on the other side. We will then observe how the other parameters change when the imaginary membrane is yanked away, creating a shockwave that propagates through the domain.</p>
+<h3 id="bifrost-with-stagger2">Bifrost with stagger2</h3>
+<p>We begin with the Bifrost solver, using using $\gamma = 1.4$, and simulating until $t=0.1$ s. 
+Plotting the final density $\rho$, pressure $P$, horizontal velocity $u_x$ and $P/\rho$ (the specific internal energy scaled by ($\gamma - 1$)) in the x-direction yields figure 1: </p>
+<p><img alt="image" src="../images/einfeldt/einfeldt_standard.png" /></p>
+<p>Comparing our plot with figure 11 in <a href="https://iopscience.iop.org/article/10.1086/588755/pdf">Stone et al.</a>, we can immediately see that the x-axis has different values. This should have no effect on the shape of the plots, and we therefore choose not to bother with changing the x-axis to replicate the figure. We also see that the shape of the specific internal energy ($P/\rho$) is different from the reference figure, and that it does not extend down quite as far as it should. 
+The reason for this might be that we are plotting the wrong variable, or that it is somehow scaled differently in the paper. 
+(We plot the specific internal energy as: <code>p/rho</code>, where <code>`p = rho * (gamma - 1) * ee</code>. )
+However, the pressure and density plots seem to fit the reference figure very nicely, and therefore we assume the results are valid, and we choose to only look at the density, pressure and velocity plots when fine-tuning the Bifrost parameters. </p>
+<p>We can examine the time evolution of the einfeldt problem by plotting a specific snapshot. The biggest changes happen in the earliest snapshots, since the system begins in an extreme initial state, which it will very quickly try to even out. 
+The following gif shows how the system changes from snapshots 0 (the initial state) to snapshot 20 (the end time $t=0.1$ s.</p>
+<p><img alt="gif" src="../images/einfeldt/einfeldt_early_times.gif" /></p>
+<p>Further on, we can modify each of the Bifrost parameters $\nu_1$, $\nu_2$, $\nu_3$, $\nu_d$, $\nu_{ee}$ and $\eta_3$ in order to fine-tune the solver to better match the results in <a href="https://iopscience.iop.org/article/10.1086/588755/pdf">Stone et al.</a> 
+I found that changing the Bifrost parameters one by one did little in terms of the density and pressure plots. The biggest changes are seen in the plot of the specific internal energy $P/\rho$.</p>
+<p>The initial parameters are as follows: </p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>$\nu_1$</th>
+<th>$\nu_2$</th>
+<th>$\nu_3$</th>
+<th>$\nu_d$</th>
+<th>$\nu_{ee}$</th>
+<th>$\eta_3$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value</td>
+<td>0.01</td>
+<td>0.3</td>
+<td>0.1</td>
+<td>0.05</td>
+<td>0.5</td>
+<td>0.3</td>
+</tr>
+</tbody>
+</table>
+<p>We can visualise what changing the parameters does by plotting the default solution in the x-direction along wih a few altered solutions. Plotting at $t=0.1$ s for $\nu_1 = 10$, and for $\nu_d=7$ yields: </p>
+<p><img alt="yeehaw" src="../images/einfeldt/einfeldt_overplot.png" /></p>
+<p>Not focusing too much on the specific internal energy, as mentioned above, we can see that the "bump" in horizontal velocity gets softened out more when we increase the value of $\nu_1$. 
+As we increase $\nu_d$, there is little change, but it may appear that the "bump" also gets a little softened, thus straying further from the reference solution in <a href="https://iopscience.iop.org/article/10.1086/588755/pdf">Stone et al.</a></p>
+<h3 id="compiling-with-the-ramses-hlld-solver">Compiling with the Ramses HLLD solver</h3>
+<p>Using the Ramses solver with the default settings yields the following figure:</p>
+<p><img alt="" src="../images/einfeldt/ramses_standard.png" /></p>
+<p>We can see immediately that the velocity plot much more closely resembles the reference plot in <a href="https://iopscience.iop.org/article/10.1086/588755/pdf">Stone et al.</a>, clearly showing the "bump" in the horizontal velocity around the center of the plot.  </p>
+<p>In order to fine-tune the Ramses solver, we can vary the <code>slope</code> parameter, which is initially set to be <code>slope=3.5</code>. Setting this parameter to be $1$, $2$, and $3$, we can plot the resulting solutions at $t=0.1$ s:</p>
+<p><img alt="" src="../images/einfeldt/ramses_overplot.png" /></p>
+<p>Here we can see that tuning the <code>slope</code> parameter does very little in terms of the overall shape of the graph. 
+There is a small difference in the slope of the density pressure plots, at the points where the graph start to drop from $\rho=1.0$ and $P=0.40$ respectively. 
+In the solution with <code>slope=2</code>, this is visible at the very top of the central curve.</p>
+<p>Something that might also be worth noting, is that for the initial Ramses setting <code>slope=3.5</code>, the specific internal velocity gets an unfamilliar shape. 
+Since this plot generally is a point of uncertainty in this report, it may not be significant. 
+However, we can observe that using <code>slope=1</code> and <code>slope=3</code> produces a $P/\rho$-plot that more closely resembles the shape seen in the reference figure.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../torrilhon/" class="btn btn-neutral float-right" title="Torrilhon">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../torrilhon/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

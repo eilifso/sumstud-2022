@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Fast Rarefaction - sumstud-2022</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Fast Rarefaction";
+        var mkdocs_page_input_path = "fast-rarefaction.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> sumstud-2022
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../einfeld/">Einfeld-1203</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../torrilhon/">Torrilhon</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../rj4d/">RJ4d</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../shu-osher/">Shu-Osher</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../rj2a/">RJ2a</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Fast Rarefaction</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#bifrost">Bifrost</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ramses">Ramses</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case3/">LW case 3</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case4/">LW case 4</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case6/">LW case 6</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case12/">LW case 12</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case15/">LW case 15</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../lw-case17/">LW case 17</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">sumstud-2022</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Fast Rarefaction</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p><script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script></p>
+<h1 id="fast-rarefaction-test">Fast rarefaction test</h1>
+<ul>
+<li>Hash: 177f0c9</li>
+<li>Branch: development-bc</li>
+</ul>
+<h2 id="bifrost">Bifrost</h2>
+<p>Using the initial conditions stated in <strong><a href="https://arxiv.org/pdf/1103.1878.pdf">(Miniati and Martin, Table 5)</a></strong> </p>
+<table>
+<thead>
+<tr>
+<th>$$\rho_L$$</th>
+<th>$$v_{x,L}$$</th>
+<th>$$v_{y,L}$$</th>
+<th>$$v_{z,L}$$</th>
+<th>$$P_L$$</th>
+<th>$$B_{y,L}$$</th>
+<th>$$B_{z,L}$$</th>
+<th>$$\rho_R$$</th>
+<th>$$v_{x,R}$$</th>
+<th>$$v_{y,R}$$</th>
+<th>$$v_{z,R}$$</th>
+<th>$$P_R$$</th>
+<th>$$B_{y,R}$$</th>
+<th>$$B_{z,R}$$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>-2</td>
+<td>0</td>
+<td>0</td>
+<td>0.45</td>
+<td>0.5</td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0.45</td>
+<td>0.5</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>I get the following animations </p>
+<p><img alt="ani" src="../images/fast_raref/og/rj4d_p.gif" />
+<img alt="ani" src="../images/fast_raref/og/rj4d_v.gif" />
+<img alt="ani" src="../images/fast_raref/og/rj4d_rho.gif" /></p>
+<p>For the still picture for the same time as the refrence.  </p>
+<p><img alt="img" src="../images/fast_raref/og/rj4d_p_16.png" />
+<img alt="img" src="../images/fast_raref/og/rj4d_v_16.png" />
+<img alt="img" src="../images/fast_raref/og/rj4d_rho_16.png" /></p>
+<p>Where we observe that the velocity plot is a bit diffrenent then the figure 5 in (Miniati and Martin, 27) </p>
+<p>Will now tweak the parameteres. 
+Here I ran into a problem that for the <strong>eta3</strong> parameter. 
+That the whole program would crash for a higher value, so have neglected that for the following. </p>
+<p><img alt="gif" src="../images/fast_raref/changes/rj4d_p.gif" />
+<img alt="gif" src="../images/fast_raref/changes/rj4d_v.gif" />
+<img alt="gif" src="../images/fast_raref/changes/rj4d_rho.gif" /></p>
+<p>Still pictures. </p>
+<p><img alt="img" src="../images/fast_raref/changes/rj4d_p_16.png" />
+<img alt="img" src="../images/fast_raref/changes/rj4d_v_16.png" />
+<img alt="img" src="../images/fast_raref/changes/rj4d_rho_16.png" /></p>
+<p>Since I had a problem getting my grid to be the same as (Miniati and Martin). 
+Most of the following observation are observation must be taken with a grain of salt. </p>
+<p>But comparing the velocity still figure it seems to beneficial to be tweaking the <strong>nu_ee</strong> bifrost parameter to a higher value to get the exact same plot. 
+But this change will make the pressure and density plot to deviate. </p>
+<h2 id="ramses">Ramses</h2>
+<p>The original animation from the <strong>ramses</strong> solver are</p>
+<p><img alt="ani" src="../images/fast_raref/ramses_og/rj4d_p.gif" />
+<img alt="ani" src="../images/fast_raref/ramses_og/rj4d_v.gif" />
+<img alt="ani" src="../images/fast_raref/ramses_og/rj4d_rho.gif" /></p>
+<p>For a slope parameter of one it crashes after one timestep. 
+And observe that for a parameter of two it's just vertical. 
+And for three it's not even showing.</p>
+<p><img alt="ani" src="../images/fast_raref/ramses_changes/rj4d_p.gif" />
+<img alt="ani" src="../images/fast_raref/ramses_changes/rj4d_v.gif" />
+<img alt="ani" src="../images/fast_raref/ramses_changes/rj4d_rho.gif" /></p>
+<p>Had to be tripple check my script to make sure it was plotting over the correct axis. 
+But it is plotting over the x-axis on all of them and the above animation are the correct one. 
+This indicates that the original slope parameter of 3.5 is the best parameter.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../rj2a/" class="btn btn-neutral float-left" title="RJ2a"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../lw-case3/" class="btn btn-neutral float-right" title="LW case 3">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../rj2a/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../lw-case3/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
