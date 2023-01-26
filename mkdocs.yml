@@ -15,7 +15,4 @@ nav:
   - 'LW case 15': lw-case15.md
   - 'LW case 17': lw-case17.md
   - About: about.md
-  - 'Aline': aline.md
-  - 'Adam': adam.md
-  - 'Christophe': christophe.md 
 theme: readthedocs
